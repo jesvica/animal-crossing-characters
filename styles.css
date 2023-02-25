@@ -24,11 +24,27 @@ html {
 h1 {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: 'Gorditas', cursive;
+    color: #fffffa;
+    font-size: 3.1rem;
+    text-shadow: 2px 2px rgba(196,141,63, 0.5);
 }
 
 h2:hover {
     cursor: pointer;
+    background-color: rgba(2,55,17,0.7);
+}
+
+h2 {
+    font-size: 25px; 
+    color: #fff563;
+    background-color: rgba(2,55,17,0.3);
+    border: 0.5px solid rgba(2,55,17,0.1);
+    padding: 4px 8px;
+    text-shadow: 1.5px 1.5px rgba(196,141,63, 0.5);
+    border-radius: 10px;
+    margin: 7px 5px;
 }
 
 .villagerNames {
@@ -36,6 +52,7 @@ h2:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Enriqueta', serif;
+    margin-bottom: 20px;
 }
 
 section.villagerImages {
@@ -46,20 +63,21 @@ section.villagerImages {
 .villagerImages {
     display: flex;
     justify-content: center;
-    height: 25rem;
+    height: 20rem;
     width: auto;
 }
 
-audio {
-    color: red;
+#audioContainer {
+    display: flex;
+    justify-content: right;
+    opacity: 40%;
+}
+
+#audioContainer audio {
+    width: 250px;
 }
 
 /* Styling */
- h1 {
-    color: #fffffa;
-    font-size: 3rem;
-    padding: 0 100px;
- }
 
 
 .hidden {
