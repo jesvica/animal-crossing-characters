@@ -1,8 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@600;700&family=Gorditas:wght@400;700&display=swap');
 
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
 /* Layout */
 html { 
-    background: url(images/acnh-background.jpg) no-repeat center center fixed; 
+    background: url(C:/Users/jvict/projects/animal-crossing/images/acnh-background.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,7 +89,9 @@ section.villagerImages {
 #audioContainer {
     display: flex;
     justify-content: right;
+    align-content: flex-end;
     opacity: 40%;
+    margin: 5px 5px;
 }
 
 #audioContainer audio {
