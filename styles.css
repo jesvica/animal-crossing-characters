@@ -1,3 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@600;700&family=Gorditas:wght@400;700&display=swap');
+
+/* Layout */
+html { 
+    background: url(images/acnh-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* body {
+    background-image: url(images/acnh-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#acnh-logo {
+    float: right;
+    height: 60px;
+    width: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gorditas', cursive;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+.villagerNames {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Enriqueta', serif;
+}
+
+section.villagerImages {
+    display: flex;
+    align-self: flex-end;
+}
+
+.villagerImages {
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+    width: auto;
+}
+
+audio {
+    color: red;
+}
+
+/* Styling */
+ h1 {
+    color: #fffffa;
+    font-size: 3rem;
+    padding: 0 100px;
+ }
+
+
 .hidden {
     display: none;
 }
+
